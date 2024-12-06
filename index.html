@@ -1,0 +1,269 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+
+    
+
+
+
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicons.png"
+      type="image/png"
+    />
+
+    
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css"  />
+    <script src="script.js" defer></script>
+
+    <!-- Your name here -->
+    <title>Final Project Portfolio</title>
+  </head>
+
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          
+          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item">
+            <a href="#contact" data-focused="last-focused">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <!-- Replace with your name and job title -->
+          <h1 class="h1">
+            <span>Hi, I'm Josh Vincent Ocampo</span>
+            <span>BS in Information Technology Student</span>
+          </h1>
+
+          <!-- Add a small introductory paragraph about yourself -->
+          <p class="header-text">
+            Adaptable IT professional with a proven ability to adjust to rapidly changing technologies, project requirements, and client needs, ensuring efficient 
+            and effective problem-solving in dynamic environments.
+          </p>
+
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Hire me</a>
+            <a href="#skills" class="btn btn-secondary">See my Skills</a>
+            <a href="../portfolio-template-main/assets/thumbnail.png" class="btn btn-cta" download="ocampo_resume">Download My Resume</a>
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="client">
+        <div class="container">
+          <h2 class="h2">Trusted by</h2><br><br>
+          <img src="assets/images/skills/PCU-LOGO-1-pwbrzjsfombybpvsrnqhii1fmtj07oha31ejhaz7qm.png" alt="PCULOGO" loading="lazy" title="LOGO" width="800" height="auto">
+          <center><p>Philippine Christian University</p></center>
+          
+      </section>
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">Skills Set</h2>
+          <br><br>
+          
+          <div class="skills-boxes">
+            <!-- Programming Languages -->
+            <div class="skills-box">
+              <div class="skills-textbox">
+                <h3 class="h3">Programming Languages</h3>
+                <p class="skills-text">
+                  Expertise in Python, JavaScript, and Java for developing scalable applications and problem-solving.
+                </p>
+                <ol class="skills-technologies">
+                  <li>Python</li>
+                  <li>JavaScript</li>
+                  <li>Java</li>
+                </ol>
+              </div>
+              <br><br>
+              </picture>
+            </div>
+      
+            <!-- Web Development -->
+            <div class="skills-box">
+              <div class="skills-textbox">
+                <h3 class="h3">Web Development</h3>
+                <p class="skills-text">
+                  Proficient in creating responsive, modern websites using HTML, CSS, JavaScript, and React.
+                </p>
+                <ol class="skills-technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                </ol>
+              </div>
+              <picture class="skills-img">
+                
+              </picture>
+            </div>
+      
+            <!-- Flexibility -->
+            <div class="skills-box">
+              <div class="skills-textbox">
+                <h3 class="h3">Flexibility</h3>
+                <p class="skills-text">
+                  Ability to quickly adapt to new tools, technologies, and evolving project requirements in fast-paced environments.
+                </p>
+                <ol class="skills-technologies">
+                  <li>Adaptability to new frameworks</li>
+                  <li>Fast learning curve</li>
+                  <li>Versatile in diverse technologies</li>
+                </ol>
+              </div>
+              <picture class="skills-img">
+                
+              </picture>
+            </div>
+      
+            <!-- Cybersecurity -->
+            <div class="skills-box">
+              <div class="skills-textbox">
+                <h3 class="h3">Cybersecurity</h3>
+                <p class="skills-text">
+                  Knowledgeable in securing applications, identifying vulnerabilities, and protecting data integrity across platforms.
+                </p>
+                <ol class="skills-technologies">
+                  <li>Encryption</li>
+                  <li>Firewalls</li>
+                  <li>Security protocols (SSL/TLS)</li>
+                </ol>
+              </div>
+              <picture class="skills-img">
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">My Toolkit</h2>
+          <div class="skills-imgs">
+                <img src="assets/images/skills/HTML5_logo_and_wordmark.svg.png" alt="HTML5" class="skills-img" loading="lazy" title="React">
+                <img src="assets/images/skills/java-logo-vector-1.svg" alt="JAVA" class="skills-img" loading="lazy" title="Svelte">
+                 <img src="assets/images/skills/PHP-logo.svg.png" alt="PHP" class="skills-img" loading="lazy" title="Typescript">
+             
+                 <img src="assets/images/skills/html.webp" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+                 <img src="assets/images/skills/js.webp" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
+
+      
+      
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Send Message</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <!-- Please comment this component if you're not available for hire -->
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Available for hire
+              </strong>
+              <p class="contact-text">
+                IT professional, I thrive in dynamic environments where adaptability and versatility are key. 
+                I am comfortable working across various technologies and roles, from software development to system administration, 
+                and I embrace the ever-evolving nature of the tech industry. Whether it's learning new languages, optimizing workflows, 
+                or stepping into different positions, I am passionate about taking on new challenges and contributing to projects that push boundaries.
+                 My flexibility allows me to bring value wherever needed, ensuring that I can pivot and collaborate effectively in any team or situation.
+              </p>
+              
+              
+              
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" style="text-align: center; padding: 20px 0;">
+  <div class="container">
+    <div class="footer-content">
+      <p class="footer-text" style="display: flex; justify-content: center; align-items: center; color: #808080; text-align: center; margin: 0;">
+        &copy; <span>2024</span> designed & developed by 
+        <a target="_blank" rel="noopener" href="####" style="color: #808080; text-decoration: none; margin-left: 5px;" onmouseover="this.style.textDecoration='underline'; this.style.textDecorationColor='white'" onmouseout="this.style.textDecoration='none';">
+          Josh Vincent Ocampo
+        </a>
+      </p>
+      
+      <!-- Optional spacing between footer text and the theme switcher -->
+      <div style="margin-top: 20px;">
+        <label class="theme-switch" for="theme-switch" style="font-size: 14px;">
+          <span>Dark Theme</span>
+          <input type="checkbox" id="theme-switch" role="switch" style="margin-left: 10px;"/>
+        </label>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+    
+  </body>
+</html>
